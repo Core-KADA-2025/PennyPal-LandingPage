@@ -9,7 +9,7 @@ import risfan from '../assets/risfan.jpg'
 import wika from '../assets/wika.jpg'
 import zaf from '../assets/zaf.jpg'
 import zain from '../assets/zain.jpg'
-
+import { FaLinkedin,FaGithub } from 'react-icons/fa';
 import {Link as PathLink} from 'react-router-dom'
 
 function LandingPage() {
@@ -45,15 +45,19 @@ function LandingPage() {
   return (
     <>
       {/* Hero Section - Team Members */}
-      <div className='max-w-screen h-[110vh] md:h-screen flex flex-col items-center justify-start py-5 font-sans gap-5 px-4 font-sans'>
+      <div className='max-w-screen h-[150vh] md:h-screen flex flex-col items-center justify-start py-5 font-sans gap-5 px-4 font-sans'>
         <h1 className='text-2xl md:text-3xl text-center'>KADA 2025 Capstone Project </h1>
         <h1 className='text-2xl md:text-3xl text-center font-bold'>Group 4 CORE</h1>
-        <div className='w-full max-w-6xl md:h-[60%]  flex flex-col md:flex-row items-center justify-center gap-2 p-4'>
-            <div className='w-full md:w-[25%] md:flex-col flex-row h-25 md:h-full flex items-center  gap-2 px-2 py-4'>
-              <div className='w-20 h-20 md:w-48 md:h-48 rounded-full  bg-contain bg-cover' style={{ backgroundImage: `url(${risfan}`}}></div>
-              <div className='flex items-center md: flex-col md:ml-0 ml-5'>
-                 <h1 className='md:text-xl text-md font-bold'>Risfandhiani Triara Putri</h1>
+        <div className='flex flex-row gap-2'><FaGithub size={24}/><h1 className='font-bold'>Github :</h1> </div>
+        <a href='https://github.com/Core-KADA-2025/PennyPal' className='hover:text-blue-500 text-xs md:text-sm'>https://github.com/Core-KADA-2025/PennyPal</a>
+        <div className='w-full max-w-6xl md:h-[60%]   flex flex-col md:flex-row items-center justify-center gap-2 '>
+            <div className='w-full md:w-[25%] md:flex-col  flex-row h-25 md:h-full flex items-center  gap-2 px-2 py-4'>
+              <div className='w-20 h-20  md:w-48 md:h-48 rounded-full  bg-contain bg-cover' style={{ backgroundImage: `url(${risfan}`}}></div>
+              <div className='flex items-center ml-30 md: flex-col md:ml-0 ml-5'>
+                 <h1 className='md:text-xl text-sm font-bold'>Risfandhiani Triara Putri</h1>
                  <h1 className='italic'> Leader</h1>
+                 <div className='flex flex-row gap-1'><FaLinkedin size={24} className="text-blue-600 hover:text-blue-800" />  <h1 className='font-bold'>Linkedin :</h1></div>
+                  <a href="https://www.linkedin.com/in/risfandhiani/" target="_blank" rel="noopener noreferrer" className='hover:text-blue-500 text-xs mt-2'>https://www.linkedin.com/in/risfandhiani/</a> 
                
               </div>
               
@@ -64,6 +68,8 @@ function LandingPage() {
               <div className='flex items-center md: flex-col md:ml-0 ml-5'>
                  <h1 className='md:text-xl text-md font-bold'>Satwika Zahrani Putri</h1>
                  <h1 className='italic'>Member</h1>
+                 <div className='flex flex-row gap-1'><FaLinkedin size={24} className="text-blue-600 hover:text-blue-800" />  <h1 className='font-bold'>Linkedin :</h1></div>
+                  <a href="https://www.linkedin.com/in/risfandhiani/" target="_blank" rel="noopener noreferrer" className='hover:text-blue-500 text-xs mt-2'>https://www.linkedin.com/in/satwika-putri/</a> 
                
               </div>
               
@@ -74,6 +80,8 @@ function LandingPage() {
               <div className='flex items-center md: flex-col md:ml-0 ml-5'>
                  <h1 className='md:text-xl text-md font-bold'>Zafyra Raisidha Azhari</h1>
                  <h1 className='italic'> Member</h1>
+                 <div className='flex flex-row gap-1'><FaLinkedin size={24} className="text-blue-600 hover:text-blue-800" />  <h1 className='font-bold'>Linkedin :</h1></div>
+                  <a href="https://www.linkedin.com/in/risfandhiani/" target="_blank" rel="noopener noreferrer" className='hover:text-blue-500 text-xs mt-2'>https://www.linkedin.com/in/zafyrazhari/</a> 
                
               </div>
               
@@ -84,6 +92,8 @@ function LandingPage() {
               <div className='flex items-center md: flex-col md:ml-0 ml-5'>
                  <h1 className='md:text-xl text-md font-bold'>Zaini Ahmad</h1>
                  <h1 className='italic'> Member</h1>
+                 <div className='flex flex-row gap-1'><FaLinkedin size={24} className="text-blue-600 hover:text-blue-800" />  <h1 className='font-bold'>Linkedin :</h1></div>
+                  <a href="https://www.linkedin.com/in/risfandhiani/" target="_blank" rel="noopener noreferrer" className='hover:text-blue-500 text-xs mt-2'>www.linkedin.com/in/zaini-ahmad/</a> 
                
               </div>
               
