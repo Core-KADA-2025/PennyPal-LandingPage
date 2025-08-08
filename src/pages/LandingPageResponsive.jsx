@@ -298,7 +298,7 @@ function LandingPage() {
       <div id='login' className={`max-w-screen min-h-[90vh] bg-green-200 flex flex-col items-center justify-center font-sans gap-5 px-4 py-10 ${inViewCTO ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"} transition-all duration-700`} ref={refCTO}>
         <h1 className='text-3xl md:text-6xl text-center leading-tight'>Ready to take control of your finances</h1>
         <h2 className='text-lg md:text-2xl text-center'>Log in now and start managing your budget effortlessly.</h2>
-         <a href="http://localhost:3001/webapp" className='bg-green-600 hover:bg-green-700 w-[60%]  text-white font-bold rounded-2xl h-12 md:w-[20%]  flex items-center justify-center min-h-[48px]' target="_blank"><button className='bg-green-600 hover:bg-green-700 w-full md:w-full text-white font-bold rounded-2xl h-12 md:h-[5%] min-h-[48px]'>Log in PennyPal</button></a>
+         <a href="https://core-pennypal.vercel.app/" className='bg-green-600 hover:bg-green-700 w-[60%]  text-white font-bold rounded-2xl h-12 md:w-[20%]  flex items-center justify-center min-h-[48px]' target="_blank"><button className='bg-green-600 hover:bg-green-700 w-full md:w-full text-white font-bold rounded-2xl h-12 md:h-[5%] min-h-[48px]'>Log in PennyPal</button></a>
       </div>
 
       {/* Footer */}
