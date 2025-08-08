@@ -93,7 +93,7 @@ function LandingPage() {
                  <h1 className='md:text-xl text-md font-bold'>Zaini Ahmad</h1>
                  <h1 className='italic'> Member</h1>
                  <div className='flex flex-row gap-1'><FaLinkedin size={24} className="text-blue-600 hover:text-blue-800" />  <h1 className='font-bold'>Linkedin :</h1></div>
-                  <a href="www.linkedin.com/in/zaini-ahmad-364392147" target="_blank" rel="noopener noreferrer" className='hover:text-blue-500 text-xs mt-2'>www.linkedin.com/in/zaini-ahmad/</a> 
+                  <a href="https://www.linkedin.com/in/zaini-ahmad-364392147" target="_blank" rel="noopener noreferrer" className='hover:text-blue-500 text-xs mt-2'>www.linkedin.com/in/zaini-ahmad/</a> 
                
               </div>
               
